@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Adwaita-Dark-Blue
+Type=X-GNOME-Metatheme
+Comment=Customized standard cinnamon Adwaita-Dark theme with blue accents
+Encoding=UTF-8
+GtkTheme=Adwaita-Dark-Blue
+MetacityTheme=Adwaita-Dark-Blue
+IconTheme=Adwaita-Dark-Blue
+CursorTheme=Adwaita-Dark-Blue
+CursorSize=24
