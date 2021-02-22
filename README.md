@@ -14,7 +14,7 @@ A collection of customized themes for the Cinnamon desktop environment used in L
 
 Download the latest version of the program source from the repository's [master](https://github.com/Resonance4K/Cinnamon-Themes/tree/master) branch and extract the contents of the ZIP file to your local file system. Alternatively, you can also clone the repository to your local file system using a source control management tool such as [Git](https://git-scm.com).
 
-To clone the repository to the current working directory using Git via HTTPS:
+To clone the repository to the current working directory using Git via HTTPS, run the following command in terminal:
 
 ```
 git clone https://github.com/Resonance4K/Cinnamon-Themes.git
@@ -24,6 +24,12 @@ Once extracted or cloned, copy the theme folders into the following directory:
 
 ```
 ~/.themes/
+```
+
+If the .themes folder does not exist, create it before copying the theme folders:
+
+```
+mkdir ~/.themes
 ```
 
 ## Usage
