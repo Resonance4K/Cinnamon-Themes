@@ -9,6 +9,7 @@ A collection of customized themes for the Cinnamon desktop environment used in L
 - [Usage](#usage)
 - [Themes](#themes)
     - [Cinnamon Adwaita Dark Blue](#cinnamon-adwaita-dark-blue)
+    - [Cinnamon Adwaita Light Pink](#cinnamon-adwaita-light-pink)
 
 ## Installation
 
@@ -43,6 +44,13 @@ Navigate to the Themes in the System Settings and select one of the [themes](#th
 <p align="center">
     <img src="/Cinnamon-Adwaita-Dark-Blue/screenshots/cinnamon-adwaita-dark-blue-01.png?raw=true" alt="Cinnamon Adwaita Dark Blue 01" width="410px" />
     <img src="/Cinnamon-Adwaita-Dark-Blue/screenshots/cinnamon-adwaita-dark-blue-02.png?raw=true" alt="Cinnamon Adwaita Dark Blue 02" width="410px" />
+</p>
+
+### Cinnamon Adwaita Light Pink
+
+<p align="center">
+    <img src="/Cinnamon-Adwaita-Light-Pink/screenshots/cinnamon-adwaita-light-pink-01.png?raw=true" alt="Cinnamon Adwaita Light Pink 01" width="410px" />
+    <img src="/Cinnamon-Adwaita-Light-Pink/screenshots/cinnamon-adwaita-light-pink-02.png?raw=true" alt="Cinnamon Adwaita Light Pink 02" width="410px" />
 </p>
 
 <br />

@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Adwaita-Light-Pink
+Type=X-GNOME-Metatheme
+Comment=Customized standard cinnamon Adwaita-Light theme with pink accents
+Encoding=UTF-8
+GtkTheme=Adwaita-Light-Pink
+MetacityTheme=Adwaita-Light-Pink
+IconTheme=Adwaita-Light-Pink
+CursorTheme=Adwaita-Light-Pink
+CursorSize=24
