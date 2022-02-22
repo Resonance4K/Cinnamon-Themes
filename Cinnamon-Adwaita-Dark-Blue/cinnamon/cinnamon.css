@@ -860,7 +860,7 @@ StScrollBar StButton#hhandle:hover
 .calendar-day-base:hover
 {
     color: #ffffff;
-    background-color: #777777;
+    background-color: rgba(80, 80, 80, 1.0);
 }
 
 .calendar-day-base:active
@@ -906,6 +906,7 @@ StScrollBar StButton#hhandle:hover
 {
     text-shadow: #000000 0px 2px 2px;
     color: #ffffff;
+    background-color: #15539E;
     font-weight: bold;
 }
 
