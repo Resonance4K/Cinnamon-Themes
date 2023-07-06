@@ -1677,7 +1677,7 @@ StScrollBar StButton#hhandle:hover
 .grouped-window-list-badge
 {
     border-radius: 256px;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .grouped-window-list-thumbnail-alert
@@ -1761,8 +1761,10 @@ StScrollBar StButton#hhandle:hover
 .grouped-window-list-thumbnail-menu .item-box
 {
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
     spacing: 4px;
+    color: #cccccc;
+    background-color: rgba(40, 40, 40, 1.0);
 }
 
 .grouped-window-list-thumbnail-menu .item-box:outlined
@@ -1771,8 +1773,10 @@ StScrollBar StButton#hhandle:hover
     border: 2px solid rgba(165, 165, 165, 0.7)
 }
 
+/* Window List Thumbnail Hover */
 .grouped-window-list-thumbnail-menu .item-box:selected
 {
+    color: #ffffff;
     background-color: rgba(60, 60, 60, 1.0);
 }
 
