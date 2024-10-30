@@ -27,10 +27,29 @@ Once extracted or cloned, copy the theme folders into the following directory:
 ~/.themes/
 ```
 
-If the .themes folder does not exist, create it before copying the theme folders:
+If the `.themes` folder does not exist, create it before copying the theme folders:
 
 ```
 mkdir ~/.themes
+```
+
+Neofetch (or its derivatives such as Neowofetch) configuration is provided to match the selected theme's color scheme. This is updated in the Neofetch config file:
+
+```
+~/.config/neofetch/config.conf
+```
+
+The shell configuration for the LS and DIR commands is provided to match the selected theme's color scheme. This is updated in the config file for the shell (or shells if multiple are) being used:
+
+```
+# Bash
+~/.bashrc
+
+# zsh
+~/.zshrc
+
+# csh
+~/.cshrc
 ```
 
 ## Usage
@@ -46,12 +65,52 @@ Navigate to the Themes in the System Settings and select one of the [themes](#th
     <img src="/Cinnamon-Adwaita-Dark-Blue/screenshots/cinnamon-adwaita-dark-blue-02.png?raw=true" alt="Cinnamon Adwaita Dark Blue 02" width="410px" />
 </p>
 
+Neofetch Configuration:
+
+```
+# Text Colors
+colors=(33 7 7 33 7 7)
+
+# Ascii Colors
+ascii_colors=(33 33)
+```
+
+LS and DIR Commands Shell Configuration:
+
+```
+alias ls='ls -lAho --color=always'
+alias dir='dir -AC --color=always --quoting-style=shell'
+
+# Text Colors
+export LS_COLORS='no=0;97:di=0;38;5;33:fi=0;38;5;33:ex=0;38;5;33'
+```
+
 ### Cinnamon Adwaita Light Pink
 
 <p align="center">
     <img src="/Cinnamon-Adwaita-Light-Pink/screenshots/cinnamon-adwaita-light-pink-01.png?raw=true" alt="Cinnamon Adwaita Light Pink 01" width="410px" />
     <img src="/Cinnamon-Adwaita-Light-Pink/screenshots/cinnamon-adwaita-light-pink-02.png?raw=true" alt="Cinnamon Adwaita Light Pink 02" width="410px" />
 </p>
+
+Neofetch Configuration:
+
+```
+# Text Colors
+colors=(211 7 7 211 7 7)
+
+# Ascii Colors
+ascii_colors=(211 211)
+```
+
+LS and DIR Commands Shell Configuration:
+
+```
+alias ls='ls -lAho --color=always'
+alias dir='dir -AC --color=always --quoting-style=shell'
+
+# Text Colors
+export LS_COLORS='no=0;97:di=0;38;5;211:fi=0;38;5;211:ex=0;38;5;211'
+```
 
 <br />
 
